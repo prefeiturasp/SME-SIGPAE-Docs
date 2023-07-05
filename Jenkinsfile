@@ -1,7 +1,7 @@
 pipeline {
     environment {
       branchname =  env.BRANCH_NAME.toLowerCase()
-      kubeconfig = getKubeconjf(env.branchname)
+      kubeconfig = getKubeconf(env.branchname)
       registryCredential = 'jenkins_registry'
     }
   
