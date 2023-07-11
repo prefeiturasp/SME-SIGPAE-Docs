@@ -1,0 +1,82 @@
+site_name: SIGPAE.docs
+repo_url: https://github.com/prefeiturasp/SME-Terceirizadas-Docs
+copyright: Prefeitura Municipal de São Paulo
+
+nav:
+    - Início: index.md
+    - O SIGPAE: sigpae.md
+    - Termos e Conceitos: termos_conceitos.md
+    - Módulos:
+          - 'Gestão de Alimentação':
+              - 'Inclusão de Alimentação': Módulos/Gestão de Alimentação/inclusao_alimentacao.md
+          - 'Dieta Especial':
+              - 'Solicitação de Dieta Especial': Módulos/Dieta Especial/Solicitação de Dieta Especial.md
+          - 'Gestão de Produtos':
+                - 'Consulta de Produto': Módulos/Gestão de Produto/Consulta de Produto.md
+          - 'Medição Inicial':
+            - 'Solicitação de Medição Inicial': Módulos/Medição Inicial/Solicitação de Medição Inicial.md
+
+    - Documentação:
+          - 'Sobre a documentação': sigpae_docs/docs_project.md
+          - 'Exemplos de uso': sigpae_docs/mkdocs_exemplos_uso.md
+          - 'Como colaborar': sigpae_docs/como_colaborar_docs.md
+    - O projeto:
+        - 'Visão geral': projeto/visao_geral_projeto.md
+        - 'Guia de contribuição': projeto/guia_contribuicao.md
+        - 'Acordo de trabalho': vazia.md
+    - Informações Técnicas:
+        - 'API': vazia.md
+
+
+extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/prefeiturasp/SME-Terceirizadas
+    group_test:
+        test_macro: Teste de macro. Esse texto veio de uma macro.
+
+theme:
+    name: material
+    features:
+      - navigation.sections
+      - navigation.expand
+      - navigation.top
+      - navigation.footer
+    palette:
+
+      # Palette toggle for light mode
+       - scheme: default
+         primary: green
+         toggle:
+           icon: material/weather-night
+           name: Modo Escuro
+
+      # Palette toggle for dark mode
+       - scheme: slate
+         primary: green
+         toggle:
+           icon: material/brightness-7
+           name: Modo Claro
+    language: pt-BR
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+    - macros
+    - search
+
+markdown_extensions:
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.tasklist
+    - pymdownx.tilde
+    - pymdownx.caret
+    - pymdownx.mark
+    - admonition
