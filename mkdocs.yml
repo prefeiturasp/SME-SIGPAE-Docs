@@ -7,6 +7,14 @@ nav:
     - O SIGPAE: sigpae.md
     - Termos e Conceitos: termos_conceitos.md
     - Módulos:
+          - 'Abastecimento':
+              - 'Alteração da Requisição': Módulos/Abastecimento/Alteração da Requisição.md
+              - 'Entregas': Módulos/Abastecimento/Entregas.md
+              - 'Requisição de Entregas': Módulos/Abastecimento/Requisição de Entregas.md
+          - 'Pré-Recebimento':
+              - 'Alteração de Cronograma': Módulos/Pré-Recebimento/Alteração de Cronograma.md
+              - 'Cronograma de Entrega': Módulos/Pré-Recebimento/Cronograma de Entrega.md
+
           - 'Gestão de Alimentação':
               - 'Inclusão de Alimentação': Módulos/Gestão de Alimentação/inclusao_alimentacao.md
           - 'Dieta Especial':
