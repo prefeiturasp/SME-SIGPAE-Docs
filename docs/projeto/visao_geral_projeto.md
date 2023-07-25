@@ -36,7 +36,7 @@ Que **gerencia todas as etapas de solicitações de alimentação, cadastro de p
 
 Diferentemente de **solicitações através de planilhas, e-mails e telefonemas**  
 
-Onosso produto **garante mais agilidade, confiabilidade e segurança para os processos.**
+O nosso produto **garante mais agilidade, confiabilidade e segurança para os processos.**
 
 ## Objetivos de Negócio
 
@@ -46,6 +46,8 @@ O SIGPAE tem como objetivo automatizar os processos internos de fornecimento e d
 - Dieta Especial: registro e análise de solicitações de Dieta Especial feitas pelas Unidades Educacionais (UEs) e criação de protocolos de Dieta Especial para os estudantes
 - Gestão de Alimentação: registro e análise de solicitações de alimentação enviadas pelas UEs
 - Medição Inicial: registro e análise das refeições servidas pelas UEs mensalmente
+- Abastecimento: distribuição e conferência dis alimentos enviados pelos Distribuidores as unidades educacionais diretas, mistas e parceiras da rede municipal de educação da cidade de São Paulo
+- Pré-Recebimento: controle e planejamento das guias para distribuição dos alimentos.
 
 No futuro, o sistema também contará com módulos que apoiarão o trabalho da criação do cardápio, das nutricionistas da Supervisão, do Faturamento, entre outras. Desta forma, pretende-se que todo o trabalho desenvolvido para fornecer alimentação para as mais de 1000 UEs beneficiadas seja realizado a partir de um sistema, com maior segurança e automatização de processos.
 
@@ -65,6 +67,12 @@ No futuro, o sistema também contará com módulos que apoiarão o trabalho da c
 
 **Quem:** Diretoria Regional de Educação (DRE)
 **Características e necessidades:** responsável pelo gerenciamento das solicitações realizadas pelas escolas que administra, com a necessidade de otimizar e controlar as diversas solicitações das unidades escolares. Para fiscalização e controle das solicitações geradas
+
+**Quem:** Divisão de Qualidade e Logística dos Alimentos (DILOG)
+**Características e necessidades:** responsável pelo processo de abastecimento da Rede Municipal de Educação das unidades diretas, mistas e parceiras
+
+**Quem:** Divisão de Nutrição Escolar (DINUTRE)
+**Características e necessidades:** responsável pela definição do cardápio
   
 ## Funcionalidades
 
@@ -73,6 +81,7 @@ No futuro, o sistema também contará com módulos que apoiarão o trabalho da c
 - Solicitação de Kit Lanche
 - Suspensão de Alimentação
 - Alteração de Cardápio
+- Inversão de dia de Cardápio
 - Relatórios
 
 **Gestão de Produtos**
@@ -91,49 +100,64 @@ No futuro, o sistema também contará com módulos que apoiarão o trabalho da c
 - Alteração de UE
 - Relatórios
 
+**Abastecimento**
+- Requisição de Entregas
+- Alteração da Requisição
+- Requisição de Entregas
+- Ocorrências
+
+**Pré-Recebimento**
+- Cronograma de Entrega
+- Alteração de Cronograma
+
 ## Roadmap
 
-- Release 1 - Gestão de Alimentação
-- Release 2 - Gestão de Produtos e Dieta Especial
-- Release 3 – CoreSSO
-- Release 4 – Gestão de nutricionistas
-- Release 5 - Medição Inicial EMEF (visão UE)
-- Release 6 - Medição Inicial EMEF (visão DRE e CODAE)
-- Release 7 - Medição Inicial CEI e EMEI
-- Release 8 - Cardápio
-- Release 9 - Supervisão
+- 1 - Gestão de Alimentação
+- 2 - Gestão de Produtos e Dieta Especial
+- 3 - Abastecimento
+- 4 – CoreSSO
+- 5 - Pré-Recebimento
+- 7 – Ocorrências
+- 8 - Medição Inicial EMEF (visão UE)
+- 9 - Medição Inicial EMEF (visão DRE e CODAE)
+- 10 - Medição Inicial CEI e EMEI
+- 11 - Cardápio
+- 12 - Supervisão
+- 13 - Gestão de nutricionistas
 
-Detalhamento do roadmap: https://whimsical.com/roadmap-geral-sigpae-C2tThx2G9GpuVviBeHZ5me@VsSo8s35X1aaSatHxnJFRV 
+Detalhamento do roadmap: (https://whimsical.com/roadmap-geral-sigpae-C2tThx2G9GpuVviBeHZ5me@VsSo8s35X1aaSatHxnJFRV)
 
-Fluxos: https://whimsical.com/fluxos-i7SkAADB94XRhRMd2afif
+Fluxos: (https://whimsical.com/fluxos-i7SkAADB94XRhRMd2afif)
 
 # Sobre o Time
 
 | Papel | Titular                       | Suplente  
 |--|-------------------------------|--|  
-| Product Owner | Andrea Wang e Daniela Chichon | Elisete Pereira |  
-| Agente de Governança | Juliana Demay                 | Fernando Gonsales |  
+| Product Owner | Andrea Wang e Daniela Chichon | Carina Jakitas |  
+| Agente de Governança | Juliana Demay                 | Vitor Ferragini |  
 | Gerente de Projeto | Aline Freitas                 | |  
-| Scrum Master | Ricardo Coda                  |  | 
-| Designer de Serviços | Caio Dib                      | |  
-| Analista de negócios | Jaqueline Sargi               |  |  
-| Analista UX/UI | Joilson Day                   |  |  
-| Analista Programador | Calvin Rossinhole             | Rodolpho Lima e João Mesquita |
-| Analista de teste | Paula Pimentel                |  |
+| Scrum Master | Ricardo Coda                       |  | 
+| Designer de Serviços | Caio Dib                    | |  
+| Analista de Negócios | Jaqueline Sargi            |  |  
+| Analista UX/UI | Carol Casassola                  |  |  
+| Analista Programador | Calvin Rossinhole             | Rodolpho Lobo, João Mesquita e Diogo Santos|
+| Analista de Teste | Paula Pimentel                |  |
 
 ## Protótipos
 
 **Protótipo Navegável:**
 
 **Visão Escola:**
-https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A25539
+(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A25539)
 
 **Visão CODAE:**
-https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A36995
+(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A36995)
 
-**Visão DRE:** https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A43643
+**Visão DRE:** 
+(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A43643)
 
-**Mapeamento inicial de fluxos:** https://drive.google.com/drive/folders/1mGy5On44p_wHBldWoEKyLrBTG98mhZaC?usp=sharing
+**Mapeamento inicial de fluxos:** 
+(https://drive.google.com/drive/folders/1mGy5On44p_wHBldWoEKyLrBTG98mhZaC?usp=sharing)
 
 # Links Úteis
 
