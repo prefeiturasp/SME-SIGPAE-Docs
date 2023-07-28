@@ -115,9 +115,9 @@ No futuro, o sistema também contará com módulos que apoiarão o trabalho da c
 - 1 - Gestão de Alimentação
 - 2 - Gestão de Produtos e Dieta Especial
 - 3 - Abastecimento
-- 4 – CoreSSO
+- 4 - CoreSSO
 - 5 - Pré-Recebimento
-- 7 – Ocorrências
+- 7 - Ocorrências
 - 8 - Medição Inicial EMEF (visão UE)
 - 9 - Medição Inicial EMEF (visão DRE e CODAE)
 - 10 - Medição Inicial CEI e EMEI
@@ -133,14 +133,14 @@ Fluxos: <https://whimsical.com/fluxos-i7SkAADB94XRhRMd2afif>
 
 | Papel | Titular                       | Suplente  
 |--|-------------------------------|--|  
-| Product Owner | Andrea Wang e Daniela Chichon | Carina Jakitas |  
+| Product Owner | Andrea Wang, Daniela Chichon e Carina Jakitas  |  
 | Agente de Governança | Juliana Demay                 | Vitor Ferragini |  
 | Gerente de Projeto | Aline Freitas                 | |  
 | Scrum Master | Ricardo Coda                       |  | 
 | Designer de Serviços | Caio Dib                    | |  
 | Analista de Negócios | Jaqueline Sargi            |  |  
 | Analista UX/UI | Carol Casassola                  |  |  
-| Analista Programador | Calvin Rossinhole             | Rodolpho Lobo, João Mesquita e Diogo Santos|
+| Analista Programador | Calvin Rossinhole e Kelwy Guedes            | Rodolpho Lobo, João Mesquita, Diogo Santos, Luis Zimmermann e Elder Santos|
 | Analista de Teste | Paula Pimentel                |  |
 
 ## Protótipos
@@ -148,16 +148,16 @@ Fluxos: <https://whimsical.com/fluxos-i7SkAADB94XRhRMd2afif>
 **Protótipo Navegável:**
 
 **Visão Escola:**
-(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A25539)
+<https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A25539>
 
 **Visão CODAE:**
-(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A36995)
+<https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A36995>
 
 **Visão DRE:** 
-(https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A43643)
+<https://www.figma.com/file/52MKvjiFFjoy7WLuvLLjAi/Spt_13-ALIMENTA%C3%87%C3%83O-Terceirizadas_sprint13-230719?node-id=0%3A43643>
 
 **Mapeamento inicial de fluxos:** 
-(https://drive.google.com/drive/folders/1mGy5On44p_wHBldWoEKyLrBTG98mhZaC?usp=sharing)
+<https://drive.google.com/drive/folders/1mGy5On44p_wHBldWoEKyLrBTG98mhZaC?usp=sharing>
 
 # Links Úteis
 
