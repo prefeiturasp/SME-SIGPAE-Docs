@@ -24,7 +24,7 @@ pipeline {
         }
 
         stage('Build') {
-          when { anyOf { branch 'master'; branch 'main';  } } 
+          when { anyOf { branch 'master'; branch 'testejenkins2';  } } 
           steps {
             script {
               imagename1 = "registry.sme.prefeitura.sp.gov.br/${env.branchname}/sigpae-docs"
@@ -38,7 +38,7 @@ pipeline {
         }
 
         stage('Deploy'){
-            when { anyOf {  branch 'master'; branch 'main'; } }        
+            when { anyOf {  branch 'master'; branch 'testejenkins2'; } }        
             steps {
                 script{
                     withCredentials([file(credentialsId: "${kubeconfig}", variable: 'config')]){
