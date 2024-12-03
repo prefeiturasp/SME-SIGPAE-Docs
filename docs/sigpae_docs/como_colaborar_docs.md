@@ -13,7 +13,7 @@ Olá! Este é um guia passo a passo para ajudá-lo a colaborar na documentação
 1. Clone o repositório da documentação:
 
     ```bash
-    git clone https://github.com/prefeiturasp/SME-Terceirizadas-Docs.git docs
+    git clone https://github.com/prefeiturasp/SME-SIGPAE-Docs.git docs
     ```
 
 

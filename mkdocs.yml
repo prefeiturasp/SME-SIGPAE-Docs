@@ -1,5 +1,5 @@
 site_name: SIGPAE.docs
-repo_url: https://github.com/prefeiturasp/SME-Terceirizadas-Docs
+repo_url: https://github.com/prefeiturasp/SME-SIGPAE-Docs
 copyright: Prefeitura Municipal de São Paulo
 
 nav:
@@ -39,7 +39,7 @@ nav:
 extra:
     social:
       - icon: fontawesome/brands/github
-        link: https://github.com/prefeiturasp/SME-Terceirizadas
+        link: https://github.com/prefeiturasp/SME-SIGPAE-API
     group_test:
         test_macro: Teste de macro. Esse texto veio de uma macro.
 
