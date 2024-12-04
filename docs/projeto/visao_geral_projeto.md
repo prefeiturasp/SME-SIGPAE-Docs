@@ -173,7 +173,7 @@ Fluxos: <https://whimsical.com/fluxos-i7SkAADB94XRhRMd2afif>
 
 | Canal de comunicação | Objetivos |
 |----------------------|-----------|
-| [Issues do Github](https://github.com/prefeiturasp/SME-Terceirizadas/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
+| [Issues do Github](https://github.com/prefeiturasp/SME-SIGPAE-API/issues) | - Sugestão de novas funcionalidades<br> - Reportar bugs<br> - Discussões técnicas |
 
 # Como contribuir
 
@@ -183,10 +183,10 @@ Contribuições são **super bem vindas**! Se você tem vontade de construir o S
 
 Informar os repositórios de código que envolvem a solução:
 
-[SME-TERCEIRIZADAS] [https://github.com/prefeiturasp/SME-Terceirizadas](https://github.com/prefeiturasp/SME-Terceirizadas)
+[SME-SIGPAE-API] [https://github.com/prefeiturasp/SME-SIGPAE-API](https://github.com/prefeiturasp/SME-SIGPAE-API)
 
-[SME-TERCEIRIZADAS-FRONTEND]
-[https://github.com/prefeiturasp/SME-Terceirizadas-Frontend](https://github.com/prefeiturasp/SME-Terceirizadas-Frontend)
+[SME-SIGPAE-FRONTEND]
+[https://github.com/prefeiturasp/SME-SIGPAE-Frontend](https://github.com/prefeiturasp/SME-SIGPAE-Frontend)
  
 # Instalação e Configuração
 
@@ -209,7 +209,7 @@ E dentro da pasta crie um arquivo `docker-postgres.yml`
 
 **Importante:** se você já estiver usando a porta 5432 na sua máquina, então mude a porta do host, ex. 5433.
 
-E troque `HOME` para o path absoluto do projeto SME-Terceirizadas.
+E troque `HOME` para o path absoluto do projeto SME-SIGPAE-API.
 
 ```yml
 version: '3.1'
@@ -219,7 +219,7 @@ services:
     image: postgres:11.2-alpine
     restart: always
     env_file:
-      - HOME/SME-Terceirizadas/.env
+      - HOME/SME-SIGPAE-API/.env
     volumes:
       - ./pgdata:/var/lib/postgresql/data
     ports:
@@ -252,7 +252,7 @@ Na pasta `sme-docker` rodar o comando
 docker-compose -f docker-celery.yml up -d
 ```
 
-Na pasta `SME-Terceirizadas`, com a virtualenv ativa rode
+Na pasta `SME-SIGPAE-API`, com a virtualenv ativa rode
 
 ```
 celery -A config worker --beat --scheduler django --loglevel=info
